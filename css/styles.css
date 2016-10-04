@@ -1,0 +1,29 @@
+body{
+  background-image: url("/assets/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  margin-left: 25px;
+  font-size: 3em;
+}
+#compliments{
+  position: relative;
+  top: 30px;
+  left: 25px;
+  font-size: 5em;
+  width: 50%;
+}
+
+button{
+  margin-left: 25px;
+  border: none;
+  background-color: salmon;
+  color: white;
+  padding: 15px 32px;
+  font-size: 2em;
+}
+
+button:hover{
+  opacity: .75;
+}
