@@ -4,21 +4,34 @@ body{
   background-repeat: no-repeat;
 }
 h1{
+  font-family: 'Oswald', sans-serif;
   margin-left: 25px;
-  font-size: 3em;
+  font-size: 4.5em;
+  color: yellow;
 }
+
+span{
+  color: darkorange;
+  font-size: 1.5em;
+  display: block;
+  letter-spacing: 38px;
+}
+
 #compliments{
+  font-family: 'Kaushan Script', cursive;
+  color:grey;
   position: relative;
   top: 30px;
   left: 25px;
-  font-size: 5em;
+  font-size: 5.5em;
   width: 50%;
 }
 
 button{
   margin-left: 25px;
-  border: none;
-  background-color: salmon;
+  border: 5px solid white;
+  border-radius: 10px;
+  background-color: lightgreen;
   color: white;
   padding: 15px 32px;
   font-size: 2em;
